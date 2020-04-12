@@ -105,7 +105,8 @@ a {
 }
 
 /* Begin responsive desingns */
-@media all and (min-width: 768px) {
+/* @media all and (min-width: 768px) { */
+@media (orientation: landscape) {
   .main-content {
     flex-direction: row;
     overflow: hidden;
