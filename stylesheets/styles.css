@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   font-size: 10px;
   /* background: rgb(149, 194, 215); */
-  background: #D1D9E8 ;
+  background: linear-gradient(180deg, #3F2B96 0%, #A8C0FF 100%);
 }
 
 a {
@@ -102,6 +102,19 @@ a {
   color: white;
   text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
   font-size: 40px;
+}
+
+.hidden-detail .detail-image-container {
+  display: none;
+}
+
+.hidden-detail .thumbnail-list {
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden-detail .thumbnail-item {
+  max-width: 80%;
 }
 
 /* Begin responsive desingns */
